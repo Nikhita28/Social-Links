@@ -33,9 +33,9 @@ html, body {
 
 html {
     background: 
-        radial-gradient(ellipse at center, rgba(0,0,255,0.3) 0%, rgba(0,0,0,0) 70%), /* niebieski */
-        radial-gradient(ellipse at center, rgba(255,0,0,0.3) 0%, rgba(0,0,0,0) 70%), /*czerwony */
-        radial-gradient(ellipse at center, rgba(0,255,0,0.3) 0%, rgba(0,0,0,0) 70%) /*zielony */
+        radial-gradient(ellipse at center, rgba(255, 238, 0, 0.349) 0%, rgba(0,0,0,0) 70%), /* niebieski */
+        radial-gradient(ellipse at center, rgba(60, 255, 0, 0.3) 0%, rgba(0,0,0,0) 70%), /*czerwony */
+        radial-gradient(ellipse at center, rgba(38, 0, 255, 0.3) 0%, rgba(0,0,0,0) 70%) /*zielony */
         #c3d7db;
     background-repeat: 
         no-repeat, 
@@ -68,21 +68,30 @@ h2{
     margin-bottom: 40px;
 }
 .link-item{
+    background: rgb(7, 7, 49)!important;
+    list-style-type: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.link-text{
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
     text-decoration: none;
     color: white;
 }
-.link-text{
-    margin-left: 30%;
-    margin-right: 30%;
-    display: block;
-    text-align: center;
-    padding: 15px 40px;
-    background: rgb(7, 7, 49)!important;
-    border-radius: 20px;
+h4{
+    margin: 20px;
 }
-.link-text:hover{
-    padding: 18px;
+.link-item:hover{
     margin-left: 29%;
     margin-right: 29%;
     transition: all 0.3s;
+    background: rgba(7, 7, 49, 0.856)!important;
 }
